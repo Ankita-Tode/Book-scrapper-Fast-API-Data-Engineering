@@ -1,5 +1,5 @@
 # **B2B Book Data Pipeline**
-Deployment link:
+Deployment link:https://bookscrapper.netlify.app/
 # **🌟 Problem Statement**
 Many businesses need up-to-date product data for analysis, pricing comparisons, or inventory tracking.  
 This project demonstrates a **B2B-style data pipeline** that:
