@@ -1,5 +1,5 @@
 # **B2B Book Data Pipeline**
-
+Deployment link:
 # **🌟 Problem Statement**
 Many businesses need up-to-date product data for analysis, pricing comparisons, or inventory tracking.  
 This project demonstrates a **B2B-style data pipeline** that:
@@ -49,7 +49,7 @@ project/
 
 - **Scraping:** Python, Requests, BeautifulSoup  
 - **Data Cleaning:** Pandas, NumPy  
-- **Database:** MySQL / PostgreSQL  
+- **Database:** Sqlite 
 - **API:** FastAPI, psycopg2  
 - **Automation:** Cron Jobs  
 - **Deployment:** Local machine, optionally Render / Railway / Replit  
@@ -71,16 +71,8 @@ venv\Scripts\activate     # Windows
 
 pip install -r requirements.txt
 
-4. Database setup
-CREATE DATABASE clean_book;
 
-CREATE TABLE clean_book (
-    title VARCHAR(255),
-    price FLOAT,
-    availability VARCHAR(50)
-);
-
-5.Environment Variables (optional but recommended)
+4.Environment Variables (optional but recommended)
 Create a .env file in the root:
 
 DB_HOST=localhost
