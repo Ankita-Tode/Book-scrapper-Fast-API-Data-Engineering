@@ -2,7 +2,7 @@ from fastapi import FastAPI
 import sqlite3
 
 app = FastAPI(title="Books API")
-DB_FILE = "../db/books.db"
+DB_FILE = "../data/books.db"
 
 def get_books():
     conn = sqlite3.connect(DB_FILE)
